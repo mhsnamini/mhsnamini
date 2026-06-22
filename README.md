@@ -1,39 +1,53 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mhsnamini/mhsnamini/main/banner.gif" width="100%" alt="banner" />
+  <img src="./banner.png" alt="Mohsen Amini Banner" width="100%" />
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Mohsen+Amini;Full+Stack+Developer;UI%2FUX+Designer;Creator+of+UIXForge" alt="Typing SVG" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=2800&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=Mohsen+Amini;Full+Stack+Developer;UI%2FUX+Designer;Creator+of+UIXForge" alt="Typing SVG" />
+  </a>
 </h1>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=mhsnamini.mhsnamini&left_color=black&right_color=8b5cf6&left_text=Profile%20Views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=mhsnamini.mhsnamini&left_color=black&right_color=gold&left_text=Profile+Views" alt="visitor badge"/>
 </p>
 
-## 👨‍💻 About Me
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,15&height=100&section=header&text=&fontSize=0" width="100%"/>
+</p>
 
-<table align="center">
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+## 👑 About Me
+
+<table align="center" border="0">
   <tr>
-    <td>
-      <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="120" />
+    <td align="center" width="150">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTlzZHkxdjJhZzFyNmx0dHl0eHVpZHByaDJyNnVncDI2amxrMjQzeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif" width="120" />
     </td>
     <td>
-      <p>🧠 Full Stack Developer & UI Designer</p>
-      <p>💻 Python · Django · JavaScript</p>
+      <p>🧠 <strong>Full Stack Developer</strong> & UI Designer</p>
+      <p>💻 <strong>Python</strong> · Django · JavaScript</p>
       <p>🎨 Figma · Motion Design · UI Systems</p>
-      <p>🚀 Building <b>UIXForge</b> — premium UI components</p>
+      <p>🚀 Building <strong>UIXForge</strong> — premium UI components</p>
     </td>
   </tr>
 </table>
 
+> *Turning coffee into elegant code since 2020 ☕*
+
 ## 🎯 Current Focus
 
-![UIXForge](https://img.shields.io/badge/UIXForge-Expanding-8B5CF6?style=for-the-badge&logo=react&logoColor=white)
-![Reusable UI](https://img.shields.io/badge/Reusable_UI-Building_Systems-06D6A0?style=for-the-badge)
-![Dashboards](https://img.shields.io/badge/Dashboards-Production_Ready-EF476F?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open_Source-Active_Contributor-FFD166?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/UIXForge-Expanding_Ecosystem-FFD700?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Reusable_UI-Systems_Design-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dashboards-Production_Ready-00CED1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open_Source-Active_Contributor-FF4500?style=for-the-badge" />
+</p>
 
-## 🛠 Tech Stack
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+## ⚜️ Tech Stack
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -41,60 +55,68 @@
   </a>
 </p>
 
-## 📦 Featured Project
-
-<table align="center">
-  <tr>
-    <td>
-      <a href="#">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mhsnamini&repo=UIXForge&theme=radical&hide_border=true" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-## 🔥 What I Build
+## 💎 Featured Project
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Full%20Stack%20Apps-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Django%20Platforms-092E20?style=for-the-badge&logo=django" />
-  <img src="https://img.shields.io/badge/UI%20Libraries-8B5CF6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Design%20Systems-F24E1E?style=for-the-badge&logo=figma" />
-  <img src="https://img.shields.io/badge/Telegram%20Bots-26A5E4?style=for-the-badge&logo=telegram" />
-  <img src="https://img.shields.io/badge/Motion%20Graphics-FF4088?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Dashboards-10B981?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Landing%20Pages-6366F1?style=for-the-badge" />
-</p>
-
-## 📈 GitHub Statistics
-
-<!-- ردیف اول: آمار کلی + زبان‌های پرکاربرد -->
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mhsnamini&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhsnamini&layout=compact&theme=radical&hide_border=true&langs_count=8" />
-</p>
-
-<!-- ردیف دوم: استریک -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mhsnamini&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
-</p>
-
-<!-- ردیف سوم: نمودار فعالیت -->
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhsnamini&bg_color=0d1117&color=8b5cf6&line=38bdf8&point=ffffff&area=true&hide_border=true" />
+  <a href="https://github.com/mhsnamini/UIXForge">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mhsnamini&repo=UIXForge&theme=radical&hide_border=true&bg_color=0D1117&title_color=FFD700&icon_color=FFD700&text_color=FFFFFF" />
   </a>
 </p>
 
-<!-- ردیف چهارم: تروفی‌ها -->
+<details>
+  <summary><b>🔮 What's inside UIXForge?</b></summary>
+  <br>
+  <p align="center">
+    ✅ Auth Components &nbsp;|&nbsp;
+    ✅ Dashboard Interfaces &nbsp;|&nbsp;
+    ✅ Landing Pages<br>
+    ✅ Forms & Inputs &nbsp;|&nbsp;
+    ✅ UI Patterns &nbsp;|&nbsp;
+    ✅ Interactive Experiences
+  </p>
+</details>
+
+## 🏗️ What I Build
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mhsnamini&theme=radical&no-frame=true&column=7&margin-w=15" />
+  <img src="https://img.shields.io/badge/Full%20Stack%20Apps-0D1117?style=for-the-badge&logo=python&logoColor=FFD700&labelColor=0D1117&color=FFD700" />
+  <img src="https://img.shields.io/badge/Django%20Platforms-0D1117?style=for-the-badge&logo=django&logoColor=44B78B&labelColor=0D1117&color=44B78B" />
+  <img src="https://img.shields.io/badge/UI%20Libraries-0D1117?style=for-the-badge&logo=storybook&logoColor=FF4785&labelColor=0D1117&color=FF4785" />
+  <img src="https://img.shields.io/badge/Design%20Systems-0D1117?style=for-the-badge&logo=figma&logoColor=F24E1E&labelColor=0D1117&color=F24E1E" />
+  <img src="https://img.shields.io/badge/Telegram%20Bots-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=0D1117&color=26A5E4" />
+  <img src="https://img.shields.io/badge/Motion%20Graphics-0D1117?style=for-the-badge&logo=adobeaftereffects&logoColor=9999FF&labelColor=0D1117&color=9999FF" />
+  <img src="https://img.shields.io/badge/Dashboards-0D1117?style=for-the-badge&logo=grafana&logoColor=F46800&labelColor=0D1117&color=F46800" />
+  <img src="https://img.shields.io/badge/Landing%20Pages-0D1117?style=for-the-badge&logo=vite&logoColor=646CFF&labelColor=0D1117&color=646CFF" />
 </p>
 
-<!-- ردیف پنجم: نمایه سه‌بعدی کانتریبیوشن -->
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+## 📊 GitHub Dashboard
+
+<!-- آمار کلی + زبان‌ها -->
 <p align="center">
-  <img src="https://github.com/mhsnamini/mhsnamini/blob/main/profile-3d-contrib/profile-night-green.svg?raw=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mhsnamini&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=FFD700&icon_color=FFD700&text_color=FFFFFF&ring_color=FFD700" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhsnamini&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0D1117&title_color=FFD700&text_color=FFFFFF" />
 </p>
+
+<!-- استریک -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mhsnamini&theme=dark&hide_border=true&background=0D1117&stroke=FFD700&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFD700&sideLabels=FFD700&dates=FFFFFF" />
+</p>
+
+<!-- نمودار فعالیت -->
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhsnamini&bg_color=0d1117&color=FFD700&line=FFD700&point=FFFFFF&area=true&hide_border=true&area_color=FFD700&title_color=FFD700&point_color=FFFFFF" />
+  </a>
+</p>
+
+<!-- تروفی‌ها -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mhsnamini&theme=darkhub&no-frame=true&column=7&margin-w=15&row=2" />
+</p>
+
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 ## 🐍 Contribution Snake
 
@@ -106,42 +128,41 @@
   </picture>
 </p>
 
-## 🌱 Philosophy
+## 🌌 Philosophy
 
 <p align="center">
-  <table align="center">
-    <tr>
-      <td>
-        <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Build%20products%20that%20look%20beautiful,%20feel%20intuitive,%20and%20solve%20real%20problems.&author=Mohsen+Amini" />
 </p>
 
-## 📫 Let's Connect
+![divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
+## 📬 Let's Connect
 
 <p align="center">
   <a href="https://github.com/mhsnamini">
-    <img src="https://img.shields.io/badge/GitHub-@mhsnamini-181717?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-@mhsnamini-0D1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&color=8A2BE2" />
   </a>
   <a href="https://linkedin.com/in/your-handle">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohsen_Amini-0077B5?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Mohsen_Amini-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0D1117&color=0077B5" />
   </a>
   <a href="https://t.me/your-handle">
-    <img src="https://img.shields.io/badge/Telegram-@yourhandle-26A5E4?style=for-the-badge&logo=telegram" />
+    <img src="https://img.shields.io/badge/Telegram-@yourhandle-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=0D1117&color=26A5E4" />
   </a>
   <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-Contact_Me-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117&color=EA4335" />
   </a>
 </p>
 
 <br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,15&height=80&section=footer" width="100%"/>
+</p>
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
-  <h3>⚡ Creator of UIXForge</h3>
-  <sub>Crafting premium user experiences, one component at a time.</sub>
+  <sub>⚡ <strong>UIXForge</strong> — Crafting premium user experiences, one component at a time.</sub>
 </div>
 
 ---
 
-<sub>🔄 آخرین بروزرسانی خودکار: 2026-06-22 11:10 UTC</sub>
+<sub>✨ آخرین بروزرسانی خودکار: 2026-06-22 11:16 UTC</sub>

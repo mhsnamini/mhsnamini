@@ -24,10 +24,10 @@ def generate_readme():
             with open(fpath, "r", encoding="utf-8") as f:
                 parts.append(f.read().strip())
     full = "\n\n".join(parts)
-    full += f"\n\n---\n\n<sub>🔄 آخرین بروزرسانی خودکار: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}</sub>\n"
+    full += f"\n\n---\n\n<sub>✨ آخرین بروزرسانی خودکار: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}</sub>\n"
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
         out.write(full)
-    print("✅ README نهایی شد!")
+    print("✅ README.md با تم طلایی ساخته شد!")
 
 if __name__ == "__main__":
     generate_readme()
