@@ -8,9 +8,9 @@
   </a>
 </h1>
 
-<!-- 🔥 نمودار بازدید با اسپارک‌لاین -->
+<!-- ⚡ نمودار بازدید اختصاصی و فوق‌سریع -->
 <p align="center">
-  <img src="https://visitors.one/badge?page_id=mhsnamini.mhsnamini&style=flat&color=gold&logo=github&label=Profile%20Views&extra=sparkline" />
+  <img src="assets/profile-views.svg" alt="Profile views chart" />
 </p>
 
 <p align="center">

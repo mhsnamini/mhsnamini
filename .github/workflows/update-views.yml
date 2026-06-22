@@ -1,0 +1,35 @@
+name: Update Profile Views Chart
+
+on:
+  schedule:
+    - cron: '0 0 * * *'            # هر روز نیمه‌شب
+  workflow_dispatch:                # اجرای دستی
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/generate_views_svg.py'  # با تغییر اسکریپت هم اجرا بشه
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Generate chart
+        run: python scripts/generate_views_svg.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/view_history.json assets/profile-views.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📈 Update profile views sparkline" && git push)
