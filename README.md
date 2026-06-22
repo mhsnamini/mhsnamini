@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm Mohsen Amini 👋
 
-<!--
-**mhsnamini/mhsnamini** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full Stack Developer & UI Designer
 
-Here are some ideas to get you started:
+Creator of UIXForge — building premium UI components and modern web experiences.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I Do
+
+* Full Stack Web Development
+* Python & Django Development
+* UI/UX Design
+* Motion Graphics & Visual Design
+* Telegram Bot Development
+
+### Currently Building
+
+🚀 UIXForge — Modern UI Components Library
+
+### Tech Stack
+
+Python • Django • JavaScript • HTML • CSS • Git
+
+### Philosophy
+
+Build products that look great, feel intuitive, and solve real problems.
