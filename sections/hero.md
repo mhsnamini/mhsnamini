@@ -8,11 +8,6 @@
   </a>
 </h1>
 
-<!-- ⚡ نمودار بازدید اختصاصی و فوق‌سریع -->
-<p align="center">
-  <img src="assets/profile-views.svg" alt="Profile views chart" />
-</p>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,15&height=100&section=header&text=&fontSize=0" width="100%"/>
 </p>
