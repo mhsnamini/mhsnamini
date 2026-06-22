@@ -4,45 +4,67 @@ import re
 from datetime import datetime, timezone
 import requests
 
-HISTORY_FILE = "assets/view_history.json"
-OUTPUT_SVG = "assets/profile-views.svg"
-USERNAME = "mhsnamini"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
-# این API یک SVG برمی‌گردونه که توش تعداد بازدید هست
+ASSETS_DIR = os.path.join(ROOT_DIR, "assets")
+HISTORY_FILE = os.path.join(ASSETS_DIR, "view_history.json")
+OUTPUT_SVG = os.path.join(ASSETS_DIR, "profile-views.svg")
+
+USERNAME = "mhsnamini"
 API_URL = f"https://visitor-badge.laobi.icu/badge?page_id={USERNAME}.{USERNAME}"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
+def ensure_assets_dir():
+    if not os.path.exists(ASSETS_DIR):
+        os.makedirs(ASSETS_DIR)
+        print(f"📁 پوشه assets ساخته شد: {ASSETS_DIR}")
+
 def fetch_current_count():
     try:
         resp = requests.get(API_URL, headers=HEADERS, timeout=10)
-        # SVG برگشتی شامل یه تگ text با عدده
-        # مثال: <text x="..." y="..." ...>123</text>
+        # استخراج عدد از SVG (مثلاً <text ...>123</text>)
         match = re.search(r'>(\d+)<', resp.text)
         if match:
             return int(match.group(1))
         else:
-            print("❌ نتونستم عدد رو از SVG بکشم، پاسخ:", resp.text[:200])
+            print("❌ نتونستم عدد رو از SVG بکشم. پاسخ اولیه:", resp.text[:200])
             return None
     except Exception as e:
         print(f"❌ خطا در گرفتن بازدید: {e}")
         return None
 
 def load_history():
-    if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, "r") as f:
-            return json.load(f)
-    return []
+    if not os.path.exists(HISTORY_FILE):
+        return []
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            data = f.read().strip()
+            if not data:
+                print("⚠️ فایل تاریخچه خالی بود، از اول شروع می‌کنیم.")
+                return []
+            return json.loads(data)
+    except json.JSONDecodeError:
+        print("⚠️ فایل تاریخچه خراب بود، بازنشانی می‌شود.")
+        return []
+    except Exception as e:
+        print(f"⚠️ خطای ناشناخته در خواندن تاریخچه: {e}")
+        return []
 
 def save_history(history):
-    with open(HISTORY_FILE, "w") as f:
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2)
 
 def generate_sparkline_svg(history):
     if not history:
-        return "<svg></svg>"
+        # یه SVG ساده که متن "No data" نشون بده
+        return '''<svg xmlns="http://www.w3.org/2000/svg" width="300" height="60" viewBox="0 0 300 60">
+  <rect width="300" height="60" fill="#0D1117" rx="8" />
+  <text x="150" y="35" text-anchor="middle" fill="#FFD700" font-family="monospace" font-size="14">📊 Collecting data...</text>
+</svg>'''
     
     counts = [point["count"] for point in history]
     min_val, max_val = min(counts), max(counts)
@@ -76,9 +98,11 @@ def generate_sparkline_svg(history):
     return svg
 
 def main():
+    ensure_assets_dir()
+    
     current_count = fetch_current_count()
     if current_count is None:
-        print("⚠️ نتونستم بازدید رو بگیرم، مطمئن شو اینترنت وصله و API در دسترسه.")
+        print("⚠️ نتونستم بازدید رو بگیرم. API ممکنه در دسترس نباشه، بعداً تلاش کن.")
         return
     
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -89,14 +113,14 @@ def main():
         history = history[-30:]
         save_history(history)
     else:
-        # آپدیت عدد امروز
         history[-1]["count"] = current_count
         save_history(history)
     
     svg = generate_sparkline_svg(history)
-    with open(OUTPUT_SVG, "w") as f:
+    with open(OUTPUT_SVG, "w", encoding="utf-8") as f:
         f.write(svg)
     print(f"✅ نمودار بازدید با {len(history)} روز آپدیت شد - آخرین بازدید: {current_count}")
+    print(f"📊 SVG ذخیره شد در: {OUTPUT_SVG}")
 
 if __name__ == "__main__":
     main()
