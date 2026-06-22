@@ -142,13 +142,10 @@
   <a href="https://github.com/mhsnamini">
     <img src="https://img.shields.io/badge/GitHub-@mhsnamini-0D1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&color=8A2BE2" />
   </a>
-  <a href="https://linkedin.com/in/your-handle">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohsen_Amini-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0D1117&color=0077B5" />
-  </a>
-  <a href="https://t.me/your-handle">
+  <a href="https://t.me/mhsn_ce">
     <img src="https://img.shields.io/badge/Telegram-@yourhandle-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=0D1117&color=26A5E4" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mohsenamini.officiall@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117&color=EA4335" />
   </a>
 </p>
@@ -165,4 +162,4 @@
 
 ---
 
-<sub>✨ آخرین بروزرسانی خودکار: 2026-06-22 11:17 UTC</sub>
+<sub>✨ آخرین بروزرسانی خودکار: 2026-06-22 11:25 UTC</sub>
