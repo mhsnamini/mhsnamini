@@ -1,15 +1,13 @@
-<p align="center">
-  <img src="./banner.png" alt="Mohsen Amini Banner" width="100%" />
-</p>
-
-<div align="center">
-
 # Mohsen Amini
 
 ### Full Stack Developer & UI Designer
 
 Building modern web products with Python, Django, and UIXForge.
+<p align="center">
+  <img src="./banner.png" alt="Mohsen Amini Banner" width="100%" />
+</p>
 
+<div align="center">
 </div>
 
 ---
