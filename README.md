@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.png" alt="Mohsen Amini Banner" width="100%" />
+</p>
+
 <div align="center">
 
 # Mohsen Amini
