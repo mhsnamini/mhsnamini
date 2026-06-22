@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/GitHub-@mhsnamini-0D1117?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117&color=8A2BE2" />
   </a>
   <a href="https://t.me/mhsn_ce">
-    <img src="https://img.shields.io/badge/Telegram-@yourhandle-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=0D1117&color=26A5E4" />
+    <img src="https://img.shields.io/badge/Telegram-@mhsn_ce-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=0D1117&color=26A5E4" />
   </a>
   <a href="mohsenamini.officiall@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117&color=EA4335" />

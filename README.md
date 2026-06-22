@@ -8,8 +8,9 @@
   </a>
 </h1>
 
+<!-- 🔥 نمودار بازدید با اسپارک‌لاین -->
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=mhsnamini.mhsnamini&left_color=black&right_color=gold&left_text=Profile+Views" alt="visitor badge"/>
+  <img src="https://visitors.one/badge?page_id=mhsnamini.mhsnamini&style=flat&color=gold&logo=github&label=Profile%20Views&extra=sparkline" />
 </p>
 
 <p align="center">
@@ -162,4 +163,4 @@
 
 ---
 
-<sub>✨ آخرین بروزرسانی خودکار: 2026-06-22 11:25 UTC</sub>
+<sub>✨ آخرین بروزرسانی خودکار: 2026-06-22 11:30 UTC</sub>
